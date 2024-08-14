@@ -1,0 +1,72 @@
+/* Define o estilo geral do corpo */
+body {
+    background-color: #f0f2f5; /* Cor de fundo mais clara e neutra */
+    color: #333; /* Cor do texto para melhor legibilidade */
+    font-family: Arial, sans-serif; /* Fonte mais moderna */
+}
+
+/* Estilo do cartão */
+.card {
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 10px; /* Bordas arredondadas para um visual mais suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para destaque */
+    background-color: #ffffff; /* Cor de fundo branca para o cartão */
+}
+
+/* Estilo da tabela */
+.table td,
+.table th {
+    text-align: center;
+    vertical-align: middle; /* Alinhamento vertical centralizado */
+}
+
+/* Estilo do container da tabela */
+.tabela {
+    max-height: 58vh;
+    overflow-y: auto; /* Permite rolagem vertical */
+    overflow-x: hidden;
+    display: block; /* Exibe a tabela se necessário */
+}
+
+/* Cores do link dentro da tabela */
+td>a {
+    color: #007bff; /* Cor de link principal */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+/* Cores do link ao passar o mouse */
+td>a:hover {
+    color: #28a745; /* Cor verde para o estado de foco */
+    transition: color 0.3s ease; /* Transição suave para a cor */
+}
+
+/* Estilo do cabeçalho da tabela */
+.table thead th {
+    background-color: #007bff; /* Azul escuro para o cabeçalho */
+    color: #ffffff; /* Texto branco para contraste */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilo das linhas alternadas da tabela */
+.table tbody tr:nth-child(odd) {
+    background-color: #f8f9fa; /* Cor clara para linhas alternadas */
+}
+
+/* Efeito de destaque ao passar o mouse sobre as linhas da tabela */
+.table tbody tr:hover {
+    background-color: #e9ecef; /* Cor mais escura para o destaque */
+}
+
+/* Estilo para os botões */
+.btn-success {
+    background-color: #28a745; /* Verde para o fundo do botão */
+    border: none; /* Remove borda padrão */
+    color: #ffffff; /* Texto branco */
+    border-radius: 30px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease; /* Transição suave para o fundo */
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Verde escuro ao passar o mouse */
+}
